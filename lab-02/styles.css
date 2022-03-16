@@ -1,0 +1,58 @@
+nav {
+  display: flex;
+  flex-direction:column;
+  background-color: #06BA87;
+  flex-basis: 10vw;
+  flex-shrink: 0;
+  float: left;
+}
+
+nav a {
+  position: static;
+  width: 64px;
+  height: 26px;
+  left: 0px;
+  top: 0px;
+  background-color: #FF1257;
+  padding: 0.5em;
+  margin: 0.5em;
+  color: #FBFBFB;
+
+  text-decoration: none;
+  /* box-shadow: 0.2px 0.5px 0px rgba(0, 0, 0, 0.25); */
+  border-radius: 8px;
+
+  /* try different values - e.g. 3s */
+  transition: background-color 0.7s;
+}
+
+nav a:hover {
+  background-color: #0184FF;
+}
+
+header, main, section{
+  overflow: auto;
+}
+
+header, main {
+  background-color: #FFD100;
+  display: flex;
+}
+
+header {
+  padding: 0 0.5em;
+  background-color: #F5F5F5;
+}
+
+main {
+  overflow: auto;
+  display: flex;
+}
+
+section {
+    padding: 0 0.5em;
+}
+
+#target {
+  color: #FF1257;
+}
