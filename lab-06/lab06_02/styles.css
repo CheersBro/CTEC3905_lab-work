@@ -1,0 +1,54 @@
+body {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+main, nav, header {
+  padding: 1rem;
+}
+
+nav {
+  background-color: #FFD100;
+}
+
+nav a {
+  text-decoration: none;
+  color: #FBFBFB;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 2em;
+  margin: 0.5rem 0;
+}
+img {
+  border-radius: 50%;
+  margin-right: 2em;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 2em 0;
+}
+
+p {
+  text-align: left;
+}
+
+@media screen and (min-width: 500px) {
+  article {
+    flex-direction: row;
+  }
+}
